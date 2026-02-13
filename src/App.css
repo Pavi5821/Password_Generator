@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password-generator{
+    width: 550px;
+    height: 480px;
+    background-color: rgb(189, 182, 182);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.input-group{
+   font-size: 17px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.input-group label{
+    color: orangered;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.input-group input{
+    width: 60%;
+    height: 40px;
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    border: 1.5px gray solid;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.input-group input:focus{
+    border: 1px solid orangered;
+}
+.checkbox-group{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.checkbox-group input{
+    width: 40px;
+    height: 20px;
+}
+.checkbox-group label{
+    text-align: center;
+    font-size: 17px;
+}
+.generate-btn{
+    width: 250px;
+    height: 45px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    border: orangered 2px solid;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 17px;
+    transition: background-color 0.5s;
+}
+.generate-btn:focus,
+.generate-btn:hover{
+    background-color: wheat;
+    color: black;
+    border: 2px orangered solid;
+}
+.generate-password{
+    background: orangered;
+    width: 280px;
+    margin-top: 35px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-left: 133px;
+}
+.generate-password input{
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: wheat;
+    padding-left: 15px;
+    font-size: 17px;
+    color: orangered;
+}
+.generate-password button{
+    width: 50px;
+    height: 30px;
+    margin-left: 8px;
+    border: none;
+    background: none;
+    border: 2px wheat solid;
+    border-radius: 50%;
+    color: white;
+}
+.generate-password button:hover{
+    background-color: wheat;
+    color: black;
+    border: orangered 2px solid;
+}
